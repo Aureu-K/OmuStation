@@ -511,7 +511,7 @@
         - ReagentSlime
         - ReagentSlimeBeer
         - ReagentSlimePax
-        - ReagentSlimeNocturine
+        # - ReagentSlimeNocturine Omu Change
         - ReagentSlimeTHC
         - ReagentSlimeBicaridine
         - ReagentSlimeToxin
@@ -560,25 +560,26 @@
     solution: bloodstream
     transferAmount: 1
 
-- type: entity
-  id: ReagentSlimeNocturine
-  parent: ReagentSlime
-  suffix: Nocturine
-  components:
-  - type: Bloodstream
-    bloodReagent: Nocturine
-  - type: PointLight
-    color: "#128e80"
-  - type: Sprite
-    drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
-    layers:
-      - map: [ "enum.DamageStateVisualLayers.Base" ]
-        state: alive
-        color: "#128e80"
-  - type: MeleeChemicalInjector
-    solution: bloodstream
-    transferAmount: 3
+### Omu change
+#- type: entity
+#  id: ReagentSlimeNocturine
+#  parent: ReagentSlime
+#  suffix: Nocturine
+#  components:
+#  - type: Bloodstream
+#    bloodReagent: Nocturine
+#  - type: PointLight
+#    color: "#128e80"
+#  - type: Sprite
+#    drawdepth: Mobs
+#    sprite: Mobs/Aliens/elemental.rsi
+#    layers:
+#      - map: [ "enum.DamageStateVisualLayers.Base" ]
+#        state: alive
+#        color: "#128e80"
+#  - type: MeleeChemicalInjector
+#    solution: bloodstream
+#    transferAmount: 3
 
 - type: entity
   id: ReagentSlimeTHC
